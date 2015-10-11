@@ -22,6 +22,15 @@ You can copy the existing nodes in the workflow and add more keyword aliases if 
 
 Copies the current time to the clipboard, in the format YYYY-MM-DD HH:MM:SS (useful for pasting into databases etc). Optionally specify the timezone as an argument (defaults to UTC).
 
-    now
+    now {timezone}
 
 ![Copy Now() to clipboard](screenshots/now.png)
+
+
+## Generate MD5 hash of a string
+
+Copies an md5 hash of a string to the clipboard, if no argument is passed then the current time is used.
+
+    md5 {query}
+
+![Generate MD5 hash of a string](screenshots/md5.png)
