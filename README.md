@@ -60,3 +60,12 @@ Searches digital ocean droplets and opens a new terminal window with an ssh conn
     doctl {query}
 
 ![Lists Digital Ocean droplets to SSH into](screenshots/digitalocean-ssh.png)
+
+
+## Copy Stripe test card to clipboard
+
+Copies the card number for various Stripe test cards to the clipboard
+
+    stripe {filter}
+    
+![Copy Stripe test card to clipboard](screenshots/stripe-test-card.png)
